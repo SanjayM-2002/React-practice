@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 
-const DashboardPage = () => {
+const LandingPage = () => {
   return (
     <>
       <div
         style={{
           padding: 12,
-          backgroundColor: 'pink',
+          backgroundColor: 'red',
           display: 'flex',
           flexDirection: 'column',
           alignContent: 'space-around',
         }}
       >
-        <h2>Dashboard Page</h2>
+        <h2>Landing Page</h2>
       </div>
     </>
   );
 };
 
-export default DashboardPage;
+export default LandingPage;
